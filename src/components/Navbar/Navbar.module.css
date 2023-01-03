@@ -1,0 +1,44 @@
+nav {
+    background: #2680c0;
+    color: #ffff;
+}
+
+.navCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navCenter h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.cartIconContainer {
+    position: relative;
+    display: flex;
+}
+
+.cartIconContainer svg {
+    width: 2.3rem;
+    fill: white;
+}
+
+.amountContainer {
+    width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -0.9rem;
+    right: -0.9rem;
+    border-radius: 50%;
+    background: #85c6f4;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+

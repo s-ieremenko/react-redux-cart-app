@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+}
+
+.productContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 2.5em;
+}
+
+.counterContainer {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.counterContainer button {
+    background: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+.productContainer {
+    display: flex;
+    margin-bottom: 2em;
+
+}
+
+.productContainer img {
+    width: 2.8rem;
+
+}
+
+.productContent button {
+    align-self: flex-start;
+    border: none;
+    border-radius: 20%;
+    padding: 0.3em 0.5em;
+    background: #aedbda;
+    font-size: 0.8rem;
+    cursor: pointer;
+
+}
